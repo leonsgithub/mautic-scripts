@@ -1,0 +1,2 @@
+# mautic-scripts
+Administration scripts
