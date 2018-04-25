@@ -2,9 +2,9 @@
 # 
 MT_DIR=/var/www/mautic;
 
-# clean up 
-rm $MT_DIR/composer.json
-rm $MT_DIR/composer.lock
+# clean up - delete composer files only in emergency
+#rm $MT_DIR/composer.json
+#rm $MT_DIR/composer.lock
 rm $MT_DIR/vendors -rf
 rm $MT_DIR/app/cache/* -rf
 
